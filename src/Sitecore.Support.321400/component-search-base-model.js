@@ -4,7 +4,7 @@
         sortFacetArray: function(sortOrder, facetArray) {
             switch (sortOrder) {
             case 'SortByCount': {
-                facetArray.sort(function(a, b) { return a.Count < b.Count });
+                facetArray.sort(function(a, b) { return a.Count - b.Count });
                 break;
             }
             case 'SortByNames':
