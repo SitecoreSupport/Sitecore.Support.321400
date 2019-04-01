@@ -60,11 +60,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.321400.config" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
     <None Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="component-search-base-model.js" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
